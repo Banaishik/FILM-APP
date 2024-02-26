@@ -1,0 +1,37 @@
+.Details {
+    font-family: sans-serif;
+    display: inline-block;
+    margin : 10px 65px;
+}
+
+.static_info {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #696969;
+}
+
+.static_result {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #696969;
+
+}
+
+.personal_header {
+    margin: 10px 0 40px 0;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-area: header-info;
+}
+
+.goBack {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition : transform 0.2s ease-in-out;
+    margin: 0 40px 0 0;
+}
+
+.goBack:hover {
+    transform: scale(1.2);
+}
